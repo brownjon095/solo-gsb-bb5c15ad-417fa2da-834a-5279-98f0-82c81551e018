@@ -1,0 +1,74 @@
+{
+  "fallback_order": [
+    "Noto Sans",
+    "Noto Sans CJK SC",
+    "Noto Sans Arabic",
+    "Noto Sans Devanagari",
+    "Noto Color Emoji",
+    "Legacy Serif",
+    "Dead End A"
+  ],
+  "default": "LastResort",
+  "fonts": {
+    "Noto Sans": {
+      "blocks": [
+        "Basic Latin",
+        "Latin-1 Supplement",
+        "Latin Extended-A",
+        "Latin Extended-B",
+        "Spacing Modifier Letters",
+        "Combining Diacritical Marks",
+        "General Punctuation",
+        "Currency Symbols",
+        "Greek and Coptic",
+        "Cyrillic"
+      ],
+      "codepoints": ["U+2026", "U+2122", "U+2192", "U+2605", "U+FE0F"]
+    },
+    "Noto Sans CJK SC": {
+      "blocks": [
+        "CJK Symbols and Punctuation",
+        "Hiragana",
+        "Katakana",
+        "CJK Unified Ideographs",
+        "CJK Compatibility Ideographs",
+        "Halfwidth and Fullwidth Forms"
+      ],
+      "codepoints": ["U+3000", "U+3002", "U+FF0C"]
+    },
+    "Noto Sans Arabic": {
+      "blocks": ["Arabic", "Arabic Presentation Forms-B"],
+      "codepoints": ["U+0614", "U+064B", "U+064C", "U+064D", "U+0651", "U+0652"]
+    },
+    "Noto Sans Devanagari": {
+      "blocks": ["Devanagari", "Vedic Extensions"],
+      "codepoints": ["U+0951", "U+0952", "U+0964"]
+    },
+    "Noto Color Emoji": {
+      "blocks": [
+        "Emoticons",
+        "Miscellaneous Symbols and Pictographs",
+        "Transport and Map Symbols",
+        "Miscellaneous Symbols",
+        "Dingbats",
+        "Supplemental Symbols and Pictographs",
+        "Symbols and Pictographs Extended-A",
+        "Variation Selectors"
+      ],
+      "codepoints": ["U+200D", "U+FE0F", "U+1F3FB", "U+1F3FC", "U+1F3FD", "U+1F3FE", "U+1F3FF", "U+20E3"]
+    },
+    "Legacy Serif": {
+      "alias_for": "Noto Serif"
+    },
+    "Noto Serif": {
+      "blocks": ["Basic Latin", "Latin-1 Supplement", "General Punctuation"],
+      "codepoints": ["U+2018", "U+2019", "U+201C", "U+201D"]
+    },
+    "Dead End A": {
+      "alias_for": "Dead End B"
+    },
+    "Dead End B": {
+      "alias_for": "Dead End A"
+    }
+  }
+}
