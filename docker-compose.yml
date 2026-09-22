@@ -1,0 +1,8 @@
+services:
+  font-fallback-lab:
+    build: .
+    image: font-fallback-lab:latest
+    container_name: font-fallback-lab
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
